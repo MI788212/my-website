@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>&#9733;</title>
+  <title>Ivana's website</title>
 
 
   <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -15,9 +15,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Syne+Mono&display=swap" rel="stylesheet">
   <script src="index.js"></script>
 </head>
-
-
-
 <body>
 
 <div class="centriraj">
@@ -32,7 +29,7 @@
 <div class="centriraj">
   <div class="panel">
 
-    <p>These are some of my artworks :) </p>
+    <p>These are some of my artworks :)<br><br><span class="faded">(Click on them to see them up close)</span></p>
 
     <div id="crtezi">
       <img src="crtezi/BKFJ7380.PNG" alt="alt" class="preview" onclick="showImage('crteziPogolemaRezolucija/BKFJ7380.PNG')"/><img
@@ -43,21 +40,20 @@
             src="crtezi/QHJF5619.PNG" alt="alt" class="preview" onclick="showImage('crteziPogolemaRezolucija/QHJF5619.PNG')"/><img
             src="crtezi/IMG_1683%20(2).PNG" alt="alt" class="preview" onclick="showImage('crteziPogolemaRezolucija/IMG_1683%20(2).PNG')"/><img
               src="crtezi/7618ED22-47A5-4739-9660-EA9C516D8239%202.png" alt="alt" class="preview" onclick="showImage('crteziPogolemaRezolucija/7618ED22-47A5-4739-9660-EA9C516D8239%202.png')"/><img
-            src="crtezi/IMG_0524.PNG" alt="alt" class="preview" onclick="showImage('crteziPogolemaRezolucija/IMG_0524.PNG')"/><img
+            src="crtezi/IMG_0524.PNG" title="made in paint with a mouse!" alt="alt" class="preview" onclick="showImage('crteziPogolemaRezolucija/IMG_0524.PNG')"/><img
             src="crtezi/IPFF3635.PNG" alt="alt" class="preview" onclick="showImage('crteziPogolemaRezolucija/IPFF3635.PNG')"/><img
-              title="yes, this does not quite count as an artwork, does it :p" src="crtezi/nekoj%20saka%20da%20e%20programer.jpg" alt="alt" class="preview" onclick="showImage(this.src)"/>
+              title="yes, this does not quite count as an artwork, does it :p" src="crtezi/nekoj%20saka%20da%20e%20programer.jpg" alt="alt" class="preview" onclick="showImage('crteziPogolemaRezolucija/nekoj%20saka%20da%20e%20programer.jpg')"/>
 
     </div>
-
+    <br><br><br>
+    <p>...and there will be more to come !</p>
   </div>
 </div>
 
 <div id="lightbox" onclick="hideImage()">
+  <div id="loading-message">Image loading...</div>
   <img id="lightbox-img" src="" alt="Big image">
 </div>
-
-
-
 
 </body>
 </html>

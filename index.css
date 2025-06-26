@@ -47,7 +47,11 @@ table {
     border-spacing: 0;
 }
 
-/*//////////////////////////////////////////////////////*/
+
+
+/*//////////////////////////zavrshuva css reset////////////////////////////*/
+
+
 
 body{
     background-color: black;
@@ -154,7 +158,6 @@ img{
     max-width: 1000px;
     margin: 0 auto;
 }
-
 #crtezi img {
     width: 100%;
     margin-bottom: 10px;
@@ -162,49 +165,6 @@ img{
     display: block;
     break-inside: avoid;
 }
-
-
-section.contact-me {
-    border-bottom: none;
-}
-
-#contact input {
-    background-color: rgba(250,250,250,0.1);
-    border: 1px solid rgba(250,250,250,1);
-    border-radius: 0px;
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 14px;
-    height: 40px;
-    line-height: 40px;
-    width: 100%;
-    padding-left: 15px;
-}
-
-#contact input:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-#contact textarea {
-    background-color: rgba(250,250,250,0.1);
-    border: 1px solid rgba(250,250,250,1);
-    border-radius: 0px;
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 14px;
-    height: 180px;
-    max-height: 220px;
-    line-height: 40px;
-    width: 100%;
-    padding-left: 15px;
-}
-
-#contact textarea:focus {
-    outline: none;
-    box-shadow: none;
-}
-
 
 #lightbox {
     display: none;
@@ -218,7 +178,6 @@ section.contact-me {
     align-items: center;
     z-index: 1000;
 }
-
 #lightbox img {
     max-width: 90vw;
     max-height: 90vh;
@@ -235,6 +194,26 @@ em{
 strong{
     font-weight: bold;
 }
+.faded{
+    color: rgba(162, 132, 255, 0.5);
+}
 
-
+.colorEmphasis1{
+    color: #a284ff;
+}
+.colorEmphasis2{
+    color: #fe79dd;
+}
+.colorEmphasis3{
+    color: #ff81ac;
+}
+.colorEmphasis4{
+    color: #f89b86;
+}
+.colorEmphasis5{
+    color: #ffe48b;
+}
+.colorEmphasis6{
+    color: #e3fd95;
+}
 
